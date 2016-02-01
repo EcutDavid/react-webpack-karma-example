@@ -1,0 +1,23 @@
+webpack-stats.json
+.tags*
+*.log
+.idea
+test/benchmark_results/*
+test/es5output/
+dist
+node_modules/
+dist/
+*.DS_Store
+*.pyc
+worker/bin/
+worker/include/
+worker/lib/
+worker/local/
+worker/scrapy/
+worker/share/
+worker/.venv/
+*.sqlite3
+
+# Ansible roles
+ansible/roles/*
+!ansible/roles/wb-*
