@@ -5,7 +5,7 @@ module.exports = function (config) {
 
     browsers: ['PhantomJS'],
 
-    singleRun: true,
+    singleRun: false,
 
     frameworks: [ 'jasmine' ],
 
@@ -40,7 +40,7 @@ module.exports = function (config) {
       },
       resolve: {
         modulesDirectories: [
-          'src/js',
+          'components',
           'node_modules'
         ],
         extensions: ['', '.json', '.js']
